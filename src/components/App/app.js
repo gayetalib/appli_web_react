@@ -17,13 +17,13 @@ function App() {
          
          <Header/>
 
-      <Switch>
-        <Route exact path="/" component={Landing}/>
-        <Route exact path="/login" component={Login}/>
-        <Route exact path="/signup" component={SignUp}/>
-        <Route exact  path="/welcome" component={Welcome}/>
-        <Route component={ErrorPage} />  {/* page de path car c'est page d'erreur */}    
-      </Switch>
+            <Switch>
+              <Route exact path="/" component={Landing}/>
+              <Route exact path="/login" component={Login}/>
+              <Route exact path="/signup" component={SignUp}/>
+              <Route exact  path="/welcome" component={Welcome}/>
+              <Route component={ErrorPage} />  {/* page de path car c'est page d'erreur */}    
+            </Switch>
   
          <Footer/>
        </BrowserRouter>

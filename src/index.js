@@ -9,7 +9,6 @@ import Firebase, { FirebaseContext } from './components/Firebase';
 ReactDOM.render(
   // <FirebaseContext.Provider value={new Firebase()}/>
   <React.StrictMode>
-    
     <App />
   </React.StrictMode>,
   document.getElementById('root')
