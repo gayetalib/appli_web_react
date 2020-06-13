@@ -47,7 +47,7 @@ class Landing extends Component  {
                             </div>
 
                             <div className="col-md-4" style={{paddingTop:"-200px"}}>
-                                 {/* <img className="rounded-circle" src={profile} alt="Circle image" height="350px" width="350px" /> */}
+                                 <img className="rounded-circle" src={profile} alt="Circle image" height="350px" width="350px"/>
                             </div>
                             
                             <div className="col-md-4" style={{paddingLeft:"160px"}}>
